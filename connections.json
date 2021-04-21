@@ -1,0 +1,18 @@
+{
+  "managedApiConnections": {
+    "azurequeues": {
+      "api": {
+        "id": "/subscriptions/5300330d-c553-41aa-b2da-95b0512e0741/providers/Microsoft.Web/locations/westeurope/managedApis/azurequeues"
+      },
+      "connection": {
+        "id": "/subscriptions/5300330d-c553-41aa-b2da-95b0512e0741/resourceGroups/docker-test-rg/providers/Microsoft.Web/connections/azurequeues"
+      },
+      "connectionRuntimeUrl": "https://9b302be26e1f21d0.17.common.logic-westeurope.azure-apihub.net/apim/azurequeues/e9faadbf8dd5473ca59f7445448b5663/",
+      "authentication": {
+        "type": "Raw",
+        "scheme": "Key",
+        "parameter": "@appsetting('azurequeues-connectionKey')"
+      }
+    }
+  }
+}
